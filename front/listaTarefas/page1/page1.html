@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+
+    <header class="header">
+        <p class="goodWhat">Bem vindo(a)!</p>
+        <nav>
+            <a href="../page2/page2.html" class="link"> Ver tarefas registradas</a>
+        </nav>
+    </header>
+
+    <h1>Registre suas atividades </h1>
+
+
+    <div class="element">
+        <div class="organization">
+            <div class="division1">
+                Nome da atividade: <input type="text" class="att" placeholder="Nome">
+            </div>
+    
+            <div class="division2">
+                Descreva sua atividade: <input type="text" class="desc" placeholder="Descrição">
+            </div>
+
+            <button onclick="addNew()"> Adicionar tarefa</button>
+
+        </div>
+        <div class="linha-vertical"></div>
+        
+        <div class="add"></div>
+        
+    </div>
+    
+</body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</html>
